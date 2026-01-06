@@ -1,0 +1,290 @@
+<style type="text/css">
+    /*Cleaner*/
+    #shop header #header {
+        display: none !important;
+    }
+
+    html {
+        background: none;
+    }
+
+    body table {
+        background-color: transparent;
+    }
+
+    body table td {
+        background-color: transparent;
+    }
+
+    body {
+        background: url("") no-repeat center center fixed;
+        background-size: cover;
+        background-color: #000;
+    }
+
+
+
+    /*img-radius*/
+    img#ctl00_oCPH1_imgPicture {
+        border-radius: 0px;
+    }
+
+    #ctl00_oCPH1_lblInterests {}
+
+    img {
+        border: 20px;
+        border-radius: 0px;
+    }
+
+    b {
+        font-color: #8790ce;
+    }
+
+
+    a:link,
+    a:active,
+    a:visited {
+        color: #DDDDDD !important;
+    }
+
+    a:hover {
+        color: #8790ce !important;
+    }
+
+    /*Eraser*/
+    div.SCMainAdSpace,
+    div.SCMainHeaderPanel {
+    display: none;
+
+    }
+
+    /*a#ctl00_oCPH1_lnkProfPicLink {visibility:hidden;}*/
+    /* Tool Bar */
+
+    #ctl00_oCPH1_lblSCLastLogin {
+        color: transparent;
+    }
+
+    #ctl00_oCPH1_lblLastLogin {
+        color: transparent;
+    }
+
+    #ctl00_oCPH1_lblInterests,
+    #ctl00_oCPH1_lblWebsites,
+    #ctl00_oCPH1_lblMusic,
+    #ctl00_oCPH1_lblMovies,
+    #ctl00_oCPH1_lblBooks {
+        font-color: #8790ce;
+    }
+
+    div.MPToolsBar {
+        margin: 0 0 0 0;
+        position: relative;
+        left: 370px;
+        width: 64px;
+        top: -500px;
+        /*background:url(#) no-repeat transparent !important*/
+        ;
+        color: #EEE !important;
+        text-shadow: 2px 3px 2px #000;
+        height: 32px;
+        padding-top: 0px;
+    }
+
+    input.MPSearchText {
+        width: 142px;
+    }
+
+    .mpusername {
+        margin-left: 45px;
+    }
+
+    #ctl00_pnlTools>form>div {
+        float: left !important;
+    }
+
+    a.MainNavLink {
+        text-shadow: 2px 3px 2px #000;
+        font-family: "Macondo";
+        margin-right: 6px;
+        font-size: 12px;
+    }
+
+    /* content here ***************************/
+    div#ctl00_oMasterPanelSizer {
+        margin-top: 27px !important;
+    }
+
+    /*titlebars*/
+    table#MSCodesFixer>tbody>tr>td>table>tbody:first-of-type>tr>td>div:first-of-type,
+    #ctl00_oCPH1_tbDetailsSection>tr>td>div:first-of-type,
+    #ctl00_oCPH1_pnlSexyStuff>div:first-of-type,
+    #ctl00_oCPH1_pnlWebGifts>div:first-of-type,
+    #ctl00_oCPH1_tbDetailsSection>tr>td:last-of-type>div:nth-of-type(3),
+    #ctl00_oCPH1_tbFriendsSection>tr:first-of-type>td>div,
+    #ctl00_oCPH1_tbCommentsSection>tr:first-of-type>td>div,
+    div.MPToolsBar {
+        border-radius: 5px;
+        padding: 10px 15px;
+        background: rgba(0, 0, 0, 0.4) !important;
+        border: 0px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        font-family: Arial, Haettenschweiler, sans-serif;
+        font-size: 14px;
+        text-shadow: none;
+
+    }
+
+    table#MSCodesFixer>tbody>tr>td>table>tbody:first-of-type>tr>td>div:first-of-type>img,
+    #ctl00_oCPH1_tbDetailsSection>tr>td>div:first-of-type>img,
+    #ctl00_oCPH1_pnlSexyStuff>div:first-of-type>img,
+    #ctl00_oCPH1_pnlWebGifts>div:first-of-type>img,
+    #ctl00_oCPH1_tbDetailsSection>tr>td:last-of-type>div:nth-of-type(3)>img,
+    #ctl00_oCPH1_tbFriendsSection>tr:first-of-type>td>div>img,
+    {
+    display: none;
+    }
+
+    /*contents*/
+    table#MSCodesFixer>tbody>tr>td>table>tbody:first-of-type>tr>td>div:last-of-type,
+    #ctl00_oCPH1_tbDetailsSection>tr>td>div:nth-last-of-type(3),
+    #ctl00_oCPH1_pnlSexyStuff>div:last-of-type,
+    #ctl00_oCPH1_pnlWebGifts,
+    #ctl00_oCPH1_tbDetailsSection>tr>td:last-of-type>div:nth-of-type(4),
+    #ctl00_oCPH1_tbFriendsSection>tr:nth-of-type(2)>td>div,
+    #ctl00_oCPH1_tbCommentsSection>tr:nth-of-type(2)>td {
+        border: 0px solid rgba(0, 0, 0, 0.5);
+        border-radius: 0 0 10px 10px;
+        margin-top: -1px !important;
+        background: none repeat scroll 0 0 #000 padding: 10px !important;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 -1px #000 inset 0 -10px rgba(255, 255, 255, 0.2), inset 0 -10px 20px #000 inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+        -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 -1px r#000 inset 0 -10px rgba(255, 255, 255, 0.2), inset 0 -10px 20px #000 inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 -1px #000 inset 0 -10px rgba(255, 255, 255, 0.2), inset 0 -10px 20px r#000 inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 -1px #000 inset 0 -10px rgba(255, 255, 255, 0.2), inset 0 -10px 20px #000 inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+        color: #EEE;
+        
+    }
+
+    #ctl00_oCPH1_pnlWebGifts {
+        border-radius: 0px;
+        padding: 0px !important;
+    }
+
+    div.MPToolsBar {
+        background: #000 !important;
+        border-radius: 0px;
+    }
+
+    #ctl00_oCPH1_tbDetailsSection>tr>td>div img {
+        opacity: 0.8;
+    }
+
+
+
+    /* Apply styles to button wrappers */
+    .div {
+        margin: 10px;
+        display: inline-block;
+        border-radius: 2px;
+        border: 0px solid rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.25);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px #000, inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px #000, inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+        font-family: sans-serif;
+        font-size: 14px;
+        text-shadow: 0px 0px #000;
+        color: #1C1C1C;
+        text-shadow: 1px 1px #000;
+    }
+
+    .div img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #ctl00_oCPH1_tblPComments>tbody>tr>td:last-of-type img {
+        max-width: 500px;
+    }
+
+
+
+    /* Ocultar la sección de Sexy Stuff */
+    #ctl00_oCPH1_pnlSexyStuff {
+        display: none !important;
+        /* Ocultar la sección de Sexy Stuff */
+    }
+
+    /* Ocultar 'Last Profile Login:', 'Last World Login:' y 'Member Since:' */
+    #ctl00_oCPH1_trMemberStats {
+        display: none;
+    }
+
+    hr {
+        display: none !important;
+    }
+
+    b {
+        color: transparent !important;
+    }
+
+    #ctl00_oCPH1_lblWebsites,
+    #ctl00_oCPH1_lblMusic,
+    #ctl00_oCPH1_lblMovies,
+    #ctl00_oCPH1_lblLinks {
+        color: transparent !important;
+        /* Hace el texto invisible */
+    }
+
+    #ctl00_oCPH1_lblFluentIn {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblEthnicity {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblHereBecause {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblMS {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblChildren {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblEducation {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblReligion1 {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblSmoking1 {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblAlcohol1 {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblBodyType {
+        visibility: hidden;
+    }
+
+    #ctl00_oCPH1_lblHeight {
+        visibility: hidden;
+    }
+
+    img[src="##"] {
+        display: none !important;
+    }
+
+    }
+</style>
+
+
+<p style="font-family: 'Creepster', sans-serif; font-size: 44px; color: #ffffff; line-height: 1.6;">
