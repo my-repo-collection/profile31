@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile's_Header</title>
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+
+    <style>
+/* =========================
+   RESET / BASE
+========================= */
+html {
+    background: none;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    background: url("https://www.utherverse.com/bucket/fe747d50-65ea-4ebd-9633-0946fea67cc1")
+        no-repeat center center fixed;
+    background-size: cover;
+    background-color: #000;
+    color: #EEE;
+}
+
+table,
+table td {
+    background-color: transparent !important;
+}
+
+a {
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+a:hover {
+    color: #e65e04;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #EEE;
+    padding: 8px 16px;
+    border-radius: 3px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #e65e04;
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    overflow: hidden;
+}
+
+.header-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.9;
+}
+
+.header-svg {
+    position: relative;
+    z-index: 2;
+    text-shadow: 2px 3px 6px #000;
+}
+
+/* =========================
+   GALLERY
+========================= */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+/* =========================
+   CARD
+========================= */
+.card {
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 5px;
+    padding: 15px;
+    color: #EEE;
+    text-align: center;
+    box-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.6),
+        inset 0 1px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow:
+        0 4px 10px rgba(0, 0, 0, 0.8),
+        0 0 15px rgba(230, 94, 4, 0.4);
+}
+
+.card h3 {
+    font-size: 15px;
+    margin: 10px 0;
+    color: #e65e04;
+    text-shadow: 1px 1px #000;
+}
+
+.card p {
+    font-size: 13px;
+    margin: 5px 0;
+    color: #DDD;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #EEE;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card a:hover {
+    background: rgba(0, 0, 0, 0.9);
+    color: #e65e04;
+}
+
+/* =========================
+   IMAGE CONTAINER
+========================= */
+.image-container {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+}
+
+/* =========================
+   CLEANERS (UTHERVERSE)
+========================= */
+div.SCMainAdSpace,
+div.SCMainHeaderPanel,
+hr {
+    display: none !important;
+}
+</style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="https://www.utherverse.com/net/home.aspx" target="_blank">Home</a>
+        <a href="https://supportclassic.redlightcenter.com/support/home" target="_blank">Support</a>
+        <a href="https://forums.utherverse.com/" target="_blank">Forums</a>
+        <a href="https://www.utherverse.com/Clothing/" target="_blank">Clothing</a>
+        <a href="https://www.utherverse.com/net/search/search.aspx" target="_blank">Search</a>
+        <a href="https://www.utherverse.com/net/profile/view_profile.aspx?MemberID=104032246" target="_blank">NSK Fashion</a>
+    </nav>
+
+    <!-- Header with SVG -->
+    <header>
+        <img src="https://www.utherverse.com/bucket/e7097483-15ee-40fe-a66b-f6e5fb0a6674" alt="Background Image" class="header-img">
+        <svg width="850" height="450" xmlns="" class="header-sign">
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#2b80cb; stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:white; stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <text x="50%" y="50%" font-family="'Great Vibes', cursive" font-size="100" fill="url(#grad1)"
+                text-anchor="middle" alignment-baseline="middle">Loana</text>
+        </svg>
+    </header>
+
+    <!-- Gallery -->
+    <div class="gallery">
+        <div class="image-container">
+            <img src="https://profile30.vercel.app/spammer.jpg" alt="spammerBanner">
+        </div>
+    
+        <div class="image-container">
+            <img src="https://profile30.vercel.app/17years.png" alt="club">
+        </div>
+    
+        <div class="image-container">
+            <img src="https://profile30.vercel.app/DEVIL-S-DANCERS.png" alt="team">
+        </div>
+    
+        
+    </div>
+
+</body>
+
+</html>
